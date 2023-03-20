@@ -129,7 +129,7 @@ img {
  ************************************************/
 
  .container{
-    width:100%;
+    max-width:100%;
  }
 
 @media screen and (max-width: 768px){
@@ -157,7 +157,10 @@ img {
         flex-wrap: wrap;
     }
 
-    .col{
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us, .col-right{
         width: 100%;
         margin-bottom: 3rem;
     }
